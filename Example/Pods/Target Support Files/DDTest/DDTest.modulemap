@@ -1,0 +1,6 @@
+framework module DDTest {
+  umbrella header "DDTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

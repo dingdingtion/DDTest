@@ -1,0 +1,23 @@
+PODS:
+  - DDTest (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DDTest (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DDTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDTest: be728c6c219652dd06a8cdb00cbbd858b4efc7d5
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 8c6677aa4bdafa07e818adfc0b551f679793613d
+
+COCOAPODS: 1.2.1
